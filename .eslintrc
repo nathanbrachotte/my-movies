@@ -1,0 +1,17 @@
+{
+  "extends": ["react-native-wcandillon"],
+  "rules": {
+    "react/jsx-sort-props": [
+      2,
+      {
+        "noSortAlphabetically": true,
+        "shorthandLast": true
+      }
+    ],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "import/no-anonymous-default-export": 0,
+    "import/no-default-export": 0,
+    "@typescript-eslint/no-namespace": 0
+  },
+  "ignorePatterns": ["babel.config.js"]
+}
